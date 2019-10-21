@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(12.jpg)
+}
+.menu ul{
+    background-color: rgb(73, 250, 37);
+    width: 100%;
+    list-style: none;
+    font: 100% tahoma; 
+    float: left; 
+    margin: 0px;
+    padding: 4px;
+      font-size: 10px;
+}
+
+.menu ul ul {
+    display: none;
+}
+
+.menu ul li {
+    display: inline;
+     font-weight: bold;
+     cursor: pointer;     
+}
+.menu ul li a {
+    margin: 12px;
+    padding: 18;
+    font-size: 20px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;      
+}
+.menu ul  li :hover > ul  {
+    display: block;
+}
+.menu ul li a:hover{
+    background-color:rgb(7, 88, 14);
+    color: white;
+ border-bottom: 3px solid rgb(15, 15, 15);
+ border-radius: 1px;   
+}
+ 
+ 
+
+

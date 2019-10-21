@@ -1,0 +1,5 @@
+/*#leo{width: 200px; height: 200px;background-color: red;transition-property: whidth;transition-duration:2s;transition-timing-function:linear;}*/
+#leo{width: 200px; height: 200px;background-color: red;transition:width 2s liner 1s; }
+#leo:hover{width: 350px; height: 350px;background-color:blue;}
+
+/* propeiedade trasition serve pra suavisar um link visualizado clicado */
